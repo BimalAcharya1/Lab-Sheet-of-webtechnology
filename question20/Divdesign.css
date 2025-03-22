@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.layout{
+    height:400px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+
+}
+
+.header{
+    background-color: rgb(70, 52, 70);
+    text-align: center;
+    height: 60px;
+}
+.menu{
+    background-color: rgb(113, 110, 110);
+    height: 35px;
+}
+
+.left{
+    background-color: rgb(107, 41, 41);
+    height: 270px;
+    width: 25%;
+    float: left;
+   
+}
+.Content{
+    background-color: rgb(56, 157, 188);
+    height: 270px;
+    width: 50%;
+    float: left;
+    
+}
+.right{
+    background-color:rgb(93, 38, 93);
+    height: 270px;
+
+}
+.footer{
+    clear: both;
+    background-color: rgb(113, 110, 110);
+    height: 35px;
+}
+
+
+
+
+.head{
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    padding: 40px;
+}
+.side{
+    float: left;
+    background-color: green;
+    margin-top: 15px;
+    height: 170px;
+    margin-right: 1%;
+    width: 10%;
+    padding: 80px 20px;
+
+
+}
+.con{
+    float: left;
+    height: 170px;
+    margin: 15px 0px;
+    width: 89%; 
+    
+}
+
+
+.foot{
+    clear: both;
+    background-color: green;
+    margin-top: 15px;
+    height: 100px;
+}
+.con2{
+background-color:green;
+float: left;
+margin-top: 10px;
+height: 80px;
+width: 50%;
+margin-right: 1%;
+
+}
+.con3{
+background-color:green;
+float: left;
+margin-top: 10px;
+height: 80px;
+width: 49%;
+}
+.con1{
+background-color: green;
+height: 80px;
+}

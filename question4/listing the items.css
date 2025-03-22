@@ -1,0 +1,31 @@
+
+body{
+font-size: x-large;
+gap: 8px;
+padding: 100px;
+display: flex;
+}
+h{
+
+}
+.disc{
+ border: solid 1px black;
+ height: 180px;
+ padding-left: 10px;
+}  
+
+.a{
+padding-top: 10px;
+height: 250px;
+weidth: 0px;
+} 
+
+.c{
+border: 2px solid black;
+padding-top: 10px;
+} 
+
+.for{
+padding-top: 10px;
+}
+

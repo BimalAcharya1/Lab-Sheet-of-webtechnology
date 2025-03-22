@@ -1,0 +1,67 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+fieldset{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form-group{
+    border: 1px solid rgb(101, 99, 99);
+    padding: 10px;
+    margin: 8px;
+}
+.form-group label{
+    width: 100px;
+    display: inline-block;
+}
+
+.form-group input,select,textarea{
+    width: 85%;
+    height: 30px;
+    border: 1px solid rgb(209, 136, 109);
+}
+
+.form-group textarea{
+    height: 50px;
+
+}
+
+.form-group input[type=checkbox]{
+    width: 5%;
+    height: 15px;
+}
+.form-group input[type=radio]{
+
+    width: 5%;
+    height: 20px;
+}
+.form-group.btn-group input{
+    width: 100px;
+    border: 0;
+}
+
+.form-group.btn-group input[type=submit]{
+   background-color: rgb(44, 70, 36);
+   color: white;
+}
+
+.form-group.btn-group input[type=reset]{
+    background-color: rgb(232, 22, 22);
+    color: white;
+ }
+
+h1{
+    text-align: center;
+    margin: 20px;
+}

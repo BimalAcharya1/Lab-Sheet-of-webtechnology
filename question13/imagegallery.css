@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 70%;
+    margin-left: 15%;
+}
+h1{
+    text-align:center ;
+    color:orchid;
+}
+p{
+    text-align: center;
+    color: floralwhite;
+}
+.card1{
+    height: 195px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: forestgreen; 
+    border-radius: 11px;
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 195px;
+    margin-bottom: 25px;
+  
+}
+.card3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 195px;
+    margin-top: 25px;
+}
+.scard2{
+    width: 32%;
+    margin-left: 1%;
+    background-color:forestgreen;
+    border-radius: 11px;  
+}
+.scard3{
+    width: 24%;
+    margin-left: 1%;  
+    background-color:forestgreen; 
+    border-radius: 11px;
+}
+img{
+    height: 165px;
+    width: 100%;
+    border-radius: 11px;
+    border: 3px solid white;
+
+}
