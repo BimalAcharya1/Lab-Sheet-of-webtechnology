@@ -3,15 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <link rel="stylesheet" href="question3.css">
+    <title>TOPTECH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background: #333;
+            padding: 10px 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            flex: 1;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        form input, form button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            max-width: 300px;
+        }
+
+    </style>
 </head>
 <body>
-    <div class="Box">
- <div ><a href="About us.html">About Us</a></div>
- <div ><a href="Service.html">Service</a></div>
- <div ><a href="Gallery.html">Gallery</a></div>
- <div ><a href="Contact Us.html">Contact Us</a></div>
-</div>
+
+    <header>
+        <nav>
+            <a href="#about">ITCORPS</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide top-notch services to our clients about IT relates works.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Web Development, Design, SEO, Marketing.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="image/it.jpg" alt="Sample Image">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 </body>
 </html>
