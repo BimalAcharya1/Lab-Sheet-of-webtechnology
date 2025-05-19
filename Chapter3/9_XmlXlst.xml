@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE content [
+    <!ELEMENT content (header, sections)>
+    <!ELEMENT header (#PCDATA)>
+    <!ELEMENT sections (section+)>
+    <!ELEMENT section (topic+)>
+    <!ATTLIST section name CDATA #REQUIRED>
+    <!ELEMENT topic (#PCDATA)>
+]>
+<content>
+    <header>Hello Everyone! Welcome to XML to CSS</header>
+    <sections>
+        <section name="Algo">
+            <topic>Greedy Algo</topic>
+            <topic>Randomised Algo</topic>
+            <topic>Searching Algo</topic>
+            <topic>Sorting Algo</topic>
+        </section>
+        <section name="Data Structures">
+            <topic>Array</topic>
+            <topic>Stack</topic>
+            <topic>Queue</topic>
+            <topic>Linked List</topic>
+        </section>
+        <section name="Web Technology">
+            <topic>HTML</topic>
+            <topic>CSS</topic>
+            <topic>JavaScript</topic>
+            <topic>PHP</topic>
+        </section>
+        <section name="Languages">
+            <topic>C/C++</topic>
+            <topic>Java</topic>
+            <topic>Python</topic>
+            <topic>Ruby</topic>
+        </section>
+        <section name="DBMS">
+            <topic>Basics</topic>
+            <topic>ER Diagram</topic>
+            <topic>Normalization</topic>
+            <topic>Transaction Concepts</topic>
+        </section>
+    </sections>
+</content>

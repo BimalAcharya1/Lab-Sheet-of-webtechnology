@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Hospital">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Patient">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="FirstName" type="xs:string"/>
+                                        <xs:element name="MiddleName" type="xs:string"/>
+                                        <xs:element name="LastName" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="PatientNumber">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="\d{5}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="DoctorName" type="xs:string"/>
+                            <xs:element name="Diseases">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Disease" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ConsultationCharge">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="500"/>
+                                        <xs:maxInclusive value="5000"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="LabTests">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Test" type="xs:string" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

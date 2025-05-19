@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<University xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Chapter3Lab/6_School.xsd">
+    <School>
+        <SchoolID>001</SchoolID>
+        <Name>School of Engineering</Name>
+        <Location>Kathmandu</Location>
+        <Staff>
+            <StaffID>101</StaffID>
+            <Name>Dr. Ram Kumar</Name>
+            <Title>Professor</Title>
+            <Category>academic</Category>
+            <Addresses>
+                <Street>123 Main Street</Street>
+                <Suburb>Lalitpur</Suburb>
+                <Postcode>44700</Postcode>
+            </Addresses>
+            <Addresses>
+            
+                <Street>Rainbow Secondary Street</Street>
+                <Suburb>Bhaktapur</Suburb>
+                <Postcode>44800</Postcode>
+            </Addresses>
+        </Staff>
+        <Staff>
+            <StaffID>102</StaffID>
+            <Name>Sita Sharma</Name>
+            <Title></Title>
+            <Category>general</Category>
+            <Addresses>
+                <Street>7
+                
+                Street</Street>
+                <Suburb>Kathmandu</Suburb>
+                <Postcode>44600</Postcode>
+            </Addresses>
+        </Staff>
+        <Subjects>
+            <SubjectCode>ENG101</SubjectCode>
+            <Name>Introduction to Engineering</Name>
+            <Description>Basics of engineering principles</Description>
+            <Capacity>150</Capacity>
+            <TaughtBy>101</TaughtBy>
+        </Subjects>
+        <Subjects>
+            <SubjectCode>ENG202</SubjectCode>
+            <Name>Advanced Thermodynamics</Name>
+            <Description>In-depth study of thermodynamics concepts</Description>
+            <Capacity>30</Capacity>
+            <TaughtBy>101</TaughtBy>
+        </Subjects>
+    </School>
+</University>
