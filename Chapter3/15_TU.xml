@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TU xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Chapter3Lab/15_TU.xsd">
+<TU xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Labsheet webtechnology/Chapter3/15_TU.xsd">
     <Employee>
-        <Username>Mohan1234</Username>
+        <Username>Bimal1234</Username>
         <Post>Manager</Post>
-        <Password>Aa123456</Password>
+        <Password>A123456a</Password>
         <Gender>Male</Gender>
         <Salary>35000</Salary>
     </Employee>

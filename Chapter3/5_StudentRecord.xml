@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Chapter3Lab/5_StudentRecord.xsd">
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Labsheet webtechnology/Chapter3/5_StudentRecord.xsd">
     <student rollno="101">
         <name>
             <firstname>John</firstname>

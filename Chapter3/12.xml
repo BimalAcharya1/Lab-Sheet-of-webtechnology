@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bib>
+   <book year="1994">
+     <title>TCP/IP Illustrated</title>
+     <author>Stevens</author>
+     <publisher>Addison-Wesley</publisher>
+     <price>65.95</price>
+   </book>
+   <book year="1994">
+     <title>Principles of Databases</title>
+     <author>Abiteboul</author>
+     <publisher>Addison-Wesley</publisher>
+     <price>35.89</price>
+   </book>
+   <book year="1992">
+     <title>Advanced Programming in the Unix environment</title>
+     <author>Stevens</author>
+     <publisher>Addison-Wesley</publisher>
+     <price>65.95</price>
+     </book>
+</bib>

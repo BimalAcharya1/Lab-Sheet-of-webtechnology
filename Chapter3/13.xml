@@ -1,4 +1,5 @@
-﻿<Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Chapter3Lab/13.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Labsheet webtechnology/Chapter3/13.xsd">
     <Patient>
         <Name>
             <FirstName>John</FirstName>

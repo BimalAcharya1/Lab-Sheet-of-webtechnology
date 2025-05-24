@@ -5,7 +5,7 @@
             <head>
                 <title>XML to XSLT Example</title>
                 <style>
-                    body { font-family: Arial, sans-serif; }
+                    body { font-family: Arial,sans-serif; }
                     h1 { color: white; background-color: green; padding: 10px; text-align: center; }
                     .section-title { color: green; font-weight: bold; font-size: 18px; }
                     .topics li:nth-child(1) { color: green; }

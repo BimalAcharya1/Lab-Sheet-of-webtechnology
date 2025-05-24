@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "4_books.dtd">
+<books>
+    <book isbn="978-0132350884">
+        <title>Programming in C</title>
+        <authors>
+            <author title="mr" phone="9841000001" email="bc@example.com">
+                <firstName>Brian</firstName>
+                <middleName>W</middleName>
+                <lastName>Kernighan</lastName>
+            </author>
+            <author title="mr" phone="9841000002" email="dr@example.com">
+                <firstName>Dennis</firstName>
+                <middleName>M</middleName>
+                <lastName>Ritchie</lastName>
+            </author>
+        </authors>
+        <pageNo>288</pageNo>
+        <price currency="USD">50.00</price>
+    </book>
+    <book isbn="978-0136073735">
+        <title>Computer Organization and Design</title>
+        <authors>
+            <author title="mr" phone="9876543210" email="dp@example.com">
+                <firstName>David</firstName>
+                <middleName>A</middleName>
+                <lastName>Patterson</lastName>
+            </author>
+            <author title="mr" phone="9876543211" email="jh@example.com">
+                <firstName>John</firstName>
+                <middleName>L</middleName>
+                <lastName>Hennessy</lastName>
+            </author>
+        </authors>
+        <pageNo>800</pageNo>
+        <price currency="USD">600.00</price>
+    </book>
+    <book isbn="978-0132129461">
+        <title>Data Structures Using C</title>
+        <authors>
+            <author title="mr" phone="9701234567" email="ak@example.com">
+                <firstName>Aaron</firstName>
+                <lastName>Tenanbaum</lastName>
+            </author>
+            <author title="mr" phone="9701234568" email="ly@example.com">
+                <firstName>Yedidyah</firstName>
+                <lastName>Langsam</lastName>
+            </author>
+            <author title="mr" phone="9701234569" email="mj@example.com">
+                <firstName>Moshe</firstName>
+                <lastName>J. Augenstein</lastName>
+            </author>
+        </authors>
+        <pageNo>600</pageNo>
+        <price currency="INR">550.00</price>
+    </book>
+</books>

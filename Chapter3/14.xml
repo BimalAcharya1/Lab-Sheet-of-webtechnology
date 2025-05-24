@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-stylesheet type="text/xsl" href="file:/D:/Chapter3Lab/14.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file:/D:/Labsheet webtechnology/Chapter3/14.xsl"?>
 <catalog> 
-  <book id="bk101">
-  <author>Gambardella, Matthew</author> 
-    <title>XML Developer's Guide</title> 
-    <genre>Computer</genre> 
-    <price>44.95</price> 
-    <publish_date>2000-10-01</publish_date> 
-    <description>An in-depth look at creating applications 
-      with XML.</description> 
-  </book> 
+     <book id="bk101">
+         <title>XML Developer's Guide</title> 
+         <publish_date>1992-03-25</publish_date>
+         <author>Buneman</author> 
+         <genre>Computer</genre> 
+         <description>Kluwer Academic Publishers</description> 
+         <price>129.95</price> 
+     </book> 
 </catalog> 
