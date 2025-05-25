@@ -8,17 +8,17 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="title" type="xs:string"/>
-              <xs:element name="author" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-              <xs:element name="editor" minOccurs="0">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="affiliation" type="xs:string" minOccurs="0"/>
-                  </xs:sequence>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string"/>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="author" type="xs:string"/>
+                <xs:element name="editor">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="affiliation" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="name" type="xs:string" use="required"/>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
               <xs:element name="publisher" type="xs:string"/>
               <xs:element name="price" type="xs:decimal"/>
             </xs:sequence>

@@ -1,0 +1,1 @@
+count(doc("12.xml")//book[author = "Abiteboul"])
