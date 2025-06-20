@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    margin-left: 10%;
+    border: 1px solid red;
+    padding: 20px;
+}
+.bdr{
+    width: 100%;
+    height: 15px;
+    background-color:orangered;
+    
+}
+img{
+    width: 100%;
+    height: 150px;
+}
+.top,.bill,.btm ,.last{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top1{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.top2{
+    margin-left: 55%;
+    margin-top: 60px;
+   
+}
+.top1 div,.top2 div{
+    padding: 6px;
+}
+input{
+border: none;
+ border-bottom: 1px solid black;
+}
+.mid{
+    margin-left:80%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.mid input{
+    width:80%;
+}
+.bill input{
+     margin: 8px;
+}
+.bill1{
+    margin-left: 45%;
+}
+p{
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+table,th,tr,td{
+    padding: 6px;
+    border-collapse: collapse; 
+    border: 1px solid black;
+    color: white;
+}
+table{
+    width: 100%;
+}
+table th{
+    background-color: orangered;
+}
+textarea {
+    padding: 10px;
+}
+.btm1{
+    margin-left: 72%;
+}
+.last1{
+    background-color: orchid;
+    margin-left: 15px;
+}
+.last input{
+    background-color: orchid;
+}
+.btm input{
+    padding: 5px;
+}
+.btm{
+    margin-bottom: 20px;
+}
+table td{
+    color: black;
+}

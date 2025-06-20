@@ -1,0 +1,21 @@
+body{
+   padding-left: 100px;
+   display: flex;
+   
+}
+.first{
+    font-size: x-large;
+}
+.second{
+   padding-left: 300px; 
+  font-size: medium;
+}
+.a1{
+    padding-left: 10px;
+}
+.b1{
+   padding-left: 20px;
+}
+.c1{
+    padding-left: 30px;
+}
