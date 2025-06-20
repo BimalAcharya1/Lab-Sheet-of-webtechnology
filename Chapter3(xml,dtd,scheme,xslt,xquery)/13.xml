@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/Labsheet webtechnology/Chapter3/13.xsd">
+    <Patient>
+        <Name>
+            <FirstName>John</FirstName>
+            <MiddleName>Doe</MiddleName>
+            <LastName>Smith</LastName>
+        </Name>
+        <PatientNumber>12345</PatientNumber>
+        <DoctorName>Dr. Jane Doe</DoctorName>
+        <Diseases>
+            <Disease>Diabetes</Disease>
+            <Disease>Hypertension</Disease>
+        </Diseases>
+        <ConsultationCharge>3000</ConsultationCharge>
+        <LabTests>
+            <Test>Blood Test</Test>
+            <Test>Urine Test</Test>
+        </LabTests>
+    </Patient>
+</Hospital>

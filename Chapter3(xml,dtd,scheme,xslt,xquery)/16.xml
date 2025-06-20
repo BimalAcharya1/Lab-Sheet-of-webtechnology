@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file\D:\Labsheet webtechnology\Chapter3/16.xsl"?>
+<products>
+    <product>
+        <productname>Laptop</productname>
+        <category>Electronics</category>
+        <price>1200</price>
+        <quantity>15</quantity>
+    </product>
+    <product>
+        <productname>Smartphone</productname>
+        <category>Electronics</category>
+        <price>800</price>
+        <quantity>25</quantity>
+    </product>
+    <product>
+        <productname>Chair</productname>
+        <category>Furniture</category>
+        <price>150</price>
+        <quantity>8</quantity>
+    </product>
+</products>

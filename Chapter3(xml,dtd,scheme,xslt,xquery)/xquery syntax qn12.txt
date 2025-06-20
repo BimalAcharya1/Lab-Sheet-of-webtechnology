@@ -1,0 +1,29 @@
+file:/D:/Labsheet webtechnology/Chapter3/11.xsd
+
+
+12.
+
+ 3. XQuery Solutions
+Assuming the XML is stored in a variable called $doc, e.g., doc("bib.xml")/bib:
+
+a. Titles of all books sorted by price
+xquery
+Copy
+Edit
+for $b in doc("bib.xml")//book
+order by $b/price
+return $b/title
+
+b. Count of books written by Abiteboul
+xquery
+Copy
+Edit
+count(doc("bib.xml")//book[author = "Abiteboul"])
+
+c. Number of books per author
+xquery
+Copy
+Edit
+for $a in distinct-values(doc("bib.xml")//author)
+let $count := count(doc("bib.xml")//book[author = $a])
+return <author name="{$a}" books="{$count}"/>

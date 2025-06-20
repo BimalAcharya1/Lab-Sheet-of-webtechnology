@@ -1,0 +1,10 @@
+<!ELEMENT movies (Movie+) >
+<!ELEMENT Movie ( title, year, _director, (comment | newcomment)+)>
+<!ATTLIST Movie id ID #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA) >
+<!ELEMENT _director (#PCDATA)>
+<!ATTLIST _director name CDATA #IMPLIED>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT newcomment (#PCDATA)>
+<!ATTLIST comment lang CDATA #IMPLIED>
